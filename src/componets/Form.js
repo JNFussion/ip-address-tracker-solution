@@ -24,7 +24,10 @@ function Form() {
           onChange={(e) => setInputIP(e.target.value)}
           className="w-full px-3 py-2 rounded-l-xl"
         />
-        <button type="submit" className="px-4 rounded-r-xl bg-black">
+        <button
+          type="submit"
+          className="px-4 rounded-r-xl hover:bg-very-dark-grey bg-black"
+        >
           <img src={IconArrow} alt="icon arrow" />
         </button>
       </div>

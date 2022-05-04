@@ -26,6 +26,10 @@ function Map() {
             "pk.eyJ1Ijoiam5mdXNzaW9uIiwiYSI6ImNsMnB5cmd4ajBiam0zZ3BjbWF0eHpoNTkifQ.RCZGspRFGopCmtXNDTVLbA",
         }
       ).addTo(m);
+      Leaflet.marker([
+        geolocation.location.lat,
+        geolocation.location.lng,
+      ]).addTo(m);
     }
     return () => {
       if (m) {

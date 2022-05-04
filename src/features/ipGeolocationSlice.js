@@ -82,6 +82,8 @@ const sliceOptions = {
   },
 };
 
-export const ipGeolocationSlice = createSlice(sliceOptions);
+const ipGeolocationSlice = createSlice(sliceOptions);
+
+export const { setIP } = ipGeolocationSlice.actions;
 
 export default ipGeolocationSlice.reducer;

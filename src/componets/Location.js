@@ -16,8 +16,6 @@ function Location() {
     return () => {};
   }, [ip]);
 
-  console.log(geolocation);
-
   return (
     <ul className="flex py-2 gap-5 divide-x rounded-xl shadow bg-white">
       <li className="p-4">

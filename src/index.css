@@ -7,5 +7,5 @@
 body,
 #root,
 article {
-  @apply min-h-screen max-h-screen;
+  @apply min-h-screen;
 }

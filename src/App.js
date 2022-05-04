@@ -14,7 +14,7 @@ function App() {
   }, []);
 
   return (
-    <article className="max-w-[1440px] mx-auto grid grid-rows-4">
+    <article className="max-w-[1440px] mx-auto grid grid-rows-2 md:grid-rows-4">
       <header className="relative bg-pattern">
         <h1 className="p-5 text-center text-white text-3xl">
           IP Address Tracker
@@ -24,7 +24,7 @@ function App() {
           <Location />
         </div>
       </header>
-      <section className="row-start-2 row-end-5 h-full flex">
+      <section className="row-start-2 md:row-end-5 md:h-full flex">
         <Map />
       </section>
     </article>

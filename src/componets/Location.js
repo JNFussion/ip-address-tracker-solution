@@ -17,7 +17,7 @@ function Location() {
   }, [ip]);
 
   return (
-    <ul className="flex py-2 gap-5 divide-x rounded-xl shadow bg-white">
+    <ul className="md:flex py-2 gap-5 divide-x rounded-xl shadow bg-white">
       <li className="p-4">
         <h2 className="font-medium text-sm text-dark-gray">IP ADDRESS</h2>
         <p className="font-bold text-lg text-very-dark-grey">

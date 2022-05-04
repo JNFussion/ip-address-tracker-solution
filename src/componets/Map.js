@@ -38,7 +38,7 @@ function Map() {
     };
   }, [geolocation]);
 
-  return <div id="map-container" className="flex-1 h-full" />;
+  return <div id="map-container" className="flex-1 sm:h-full" />;
 }
 
 export default Map;
